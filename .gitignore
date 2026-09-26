@@ -1,0 +1,14 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporales de Office
+~$*
+
+# Xcode (los proyectos de Swift no generan su propio .gitignore)
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# Cada proyecto de Flutter y Kotlin Multiplatform trae su propio .gitignore
