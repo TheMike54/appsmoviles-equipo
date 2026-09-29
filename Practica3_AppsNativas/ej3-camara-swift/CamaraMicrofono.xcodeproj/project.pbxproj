@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13CFA3AE5E26B6E818F87356 /* PuentesUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D819E65F49B601B87408C12 /* PuentesUIKit.swift */; };
+		187195364AE3D26FE9A93BB2 /* VistaCamara.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8649889C15196EDF70F567 /* VistaCamara.swift */; };
+		1E7FA6FBC4369B0029B8A17B /* ServicioAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE28A13B668840447AFD502 /* ServicioAudio.swift */; };
+		3748ED4B03A61902D4AC2040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FF13E7AD566ED183DC30A3 /* Foundation.framework */; };
+		3F22DBF9441EC35F6E879310 /* ContenidoDeEjemplo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B11247448C49F76C6020AE /* ContenidoDeEjemplo.swift */; };
+		43AB30385CC3FDDEE76603D4 /* CamaraMicrofonoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983B6E3BA6FD091E6B0BE05 /* CamaraMicrofonoUITests.swift */; };
+		624CA0E8787319F338758C70 /* DetalleMedio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55D317C3D56A6E69A1D43B /* DetalleMedio.swift */; };
+		693D37B6096501B0326952BE /* Ubicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC705E8AE0A04A691F50C2 /* Ubicacion.swift */; };
+		8B8D3F4CC5E46974AA8013D5 /* VistaGaleria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ACBA371233BFD5885B39E /* VistaGaleria.swift */; };
+		97741893E67E49A14C5E110B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FF13E7AD566ED183DC30A3 /* Foundation.framework */; };
+		9D4AE54E4077A848B22D9380 /* Pestanas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EEE6AA79D4BCEBB025A24 /* Pestanas.swift */; };
+		A30C415F7EB651873BF93098 /* CamaraMicrofonoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B906B670FEBCBB1CE9545 /* CamaraMicrofonoApp.swift */; };
+		BFB9A99E8C56EEA83CA82A19 /* AlmacenMedios.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2CD7CACDCE78B0B44389A /* AlmacenMedios.swift */; };
+		CEA4C077D1FFB51C98901F84 /* VistaGrabadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044409987907A43B3C6A5A18 /* VistaGrabadora.swift */; };
+		D18B43128FACBE4511A6B8BD /* ServicioCamara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE5BC8F4D66892FC28EB4C /* ServicioCamara.swift */; };
+		DB10BB45D668C721D0A30B5B /* Filtros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B36B8D44EEBFD58B897DDAD /* Filtros.swift */; };
+		E0362EEF995505E25D539A5C /* Tema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E069DBB98672BEFD21240E /* Tema.swift */; };
+		F31D92562794633DD07E2DB5 /* Persistencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E3C481442CCE82E712AB97 /* Persistencia.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46EA6DF733AA22A47FA3AB96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5360A861CF61D735A02AE33D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39563D59F6AA786A8E851D7A;
+			remoteInfo = CamaraMicrofono;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044409987907A43B3C6A5A18 /* VistaGrabadora.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VistaGrabadora.swift; path = Vistas/VistaGrabadora.swift; sourceTree = "<group>"; };
+		0B55D317C3D56A6E69A1D43B /* DetalleMedio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetalleMedio.swift; path = Vistas/DetalleMedio.swift; sourceTree = "<group>"; };
+		1CBE5BC8F4D66892FC28EB4C /* ServicioCamara.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServicioCamara.swift; path = Servicios/ServicioCamara.swift; sourceTree = "<group>"; };
+		2AE28A13B668840447AFD502 /* ServicioAudio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServicioAudio.swift; path = Servicios/ServicioAudio.swift; sourceTree = "<group>"; };
+		3A7ACBA371233BFD5885B39E /* VistaGaleria.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VistaGaleria.swift; path = Vistas/VistaGaleria.swift; sourceTree = "<group>"; };
+		5A4EEE6AA79D4BCEBB025A24 /* Pestanas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pestanas.swift; path = Vistas/Pestanas.swift; sourceTree = "<group>"; };
+		71E069DBB98672BEFD21240E /* Tema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tema.swift; path = Modelo/Tema.swift; sourceTree = "<group>"; };
+		76EC705E8AE0A04A691F50C2 /* Ubicacion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ubicacion.swift; path = Servicios/Ubicacion.swift; sourceTree = "<group>"; };
+		7983B6E3BA6FD091E6B0BE05 /* CamaraMicrofonoUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CamaraMicrofonoUITests.swift; sourceTree = "<group>"; };
+		7FBA163070C3AE8C787CCDBB /* CamaraMicrofono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamaraMicrofono.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FF13E7AD566ED183DC30A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9B36B8D44EEBFD58B897DDAD /* Filtros.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filtros.swift; path = Servicios/Filtros.swift; sourceTree = "<group>"; };
+		9D819E65F49B601B87408C12 /* PuentesUIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PuentesUIKit.swift; path = Vistas/PuentesUIKit.swift; sourceTree = "<group>"; };
+		A25B906B670FEBCBB1CE9545 /* CamaraMicrofonoApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CamaraMicrofonoApp.swift; sourceTree = "<group>"; };
+		B4B11247448C49F76C6020AE /* ContenidoDeEjemplo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContenidoDeEjemplo.swift; path = Datos/ContenidoDeEjemplo.swift; sourceTree = "<group>"; };
+		B59A653638291D511B1D166B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D727AA883B420C366254CE4C /* CamaraMicrofonoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamaraMicrofonoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E3C481442CCE82E712AB97 /* Persistencia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Persistencia.swift; path = Datos/Persistencia.swift; sourceTree = "<group>"; };
+		E0B2CD7CACDCE78B0B44389A /* AlmacenMedios.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlmacenMedios.swift; path = Datos/AlmacenMedios.swift; sourceTree = "<group>"; };
+		FA8649889C15196EDF70F567 /* VistaCamara.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VistaCamara.swift; path = Vistas/VistaCamara.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8037C77CB05681185079CE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97741893E67E49A14C5E110B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C243F5E0B555F241CCC506AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3748ED4B03A61902D4AC2040 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AE6C0574B64C68348C3B243 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				85FF13E7AD566ED183DC30A3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		592492B2ECBB421867C63385 /* CamaraMicrofono */ = {
+			isa = PBXGroup;
+			children = (
+				A25B906B670FEBCBB1CE9545 /* CamaraMicrofonoApp.swift */,
+				E0B2CD7CACDCE78B0B44389A /* AlmacenMedios.swift */,
+				B4B11247448C49F76C6020AE /* ContenidoDeEjemplo.swift */,
+				D8E3C481442CCE82E712AB97 /* Persistencia.swift */,
+				71E069DBB98672BEFD21240E /* Tema.swift */,
+				9B36B8D44EEBFD58B897DDAD /* Filtros.swift */,
+				2AE28A13B668840447AFD502 /* ServicioAudio.swift */,
+				1CBE5BC8F4D66892FC28EB4C /* ServicioCamara.swift */,
+				76EC705E8AE0A04A691F50C2 /* Ubicacion.swift */,
+				0B55D317C3D56A6E69A1D43B /* DetalleMedio.swift */,
+				5A4EEE6AA79D4BCEBB025A24 /* Pestanas.swift */,
+				9D819E65F49B601B87408C12 /* PuentesUIKit.swift */,
+				FA8649889C15196EDF70F567 /* VistaCamara.swift */,
+				3A7ACBA371233BFD5885B39E /* VistaGaleria.swift */,
+				044409987907A43B3C6A5A18 /* VistaGrabadora.swift */,
+				B59A653638291D511B1D166B /* Info.plist */,
+			);
+			name = CamaraMicrofono;
+			path = CamaraMicrofono;
+			sourceTree = "<group>";
+		};
+		A652A9823DDBFAB0D7618D17 /* CamaraMicrofonoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7983B6E3BA6FD091E6B0BE05 /* CamaraMicrofonoUITests.swift */,
+			);
+			name = CamaraMicrofonoUITests;
+			path = CamaraMicrofonoUITests;
+			sourceTree = "<group>";
+		};
+		AF0A06920BBA955E15B0E6F3 = {
+			isa = PBXGroup;
+			children = (
+				CC75E1643DBB69F17FFFBC82 /* Products */,
+				F1B70CB2AC0AF67D2EA19B83 /* Frameworks */,
+				592492B2ECBB421867C63385 /* CamaraMicrofono */,
+				A652A9823DDBFAB0D7618D17 /* CamaraMicrofonoUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		CC75E1643DBB69F17FFFBC82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FBA163070C3AE8C787CCDBB /* CamaraMicrofono.app */,
+				D727AA883B420C366254CE4C /* CamaraMicrofonoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1B70CB2AC0AF67D2EA19B83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AE6C0574B64C68348C3B243 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39563D59F6AA786A8E851D7A /* CamaraMicrofono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3408C33B10B81C2ABE21830F /* Build configuration list for PBXNativeTarget "CamaraMicrofono" */;
+			buildPhases = (
+				0A0A32E90F7E85D27680642D /* Sources */,
+				C243F5E0B555F241CCC506AD /* Frameworks */,
+				FAC1D1D8A8D1B1AED84BC569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CamaraMicrofono;
+			productName = CamaraMicrofono;
+			productReference = 7FBA163070C3AE8C787CCDBB /* CamaraMicrofono.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CB96B8FE9373008B9C412ED /* CamaraMicrofonoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37AC20CDF8C92F88C0D84956 /* Build configuration list for PBXNativeTarget "CamaraMicrofonoUITests" */;
+			buildPhases = (
+				C1BB53C8E3E8CAA03933D5DA /* Sources */,
+				8037C77CB05681185079CE4A /* Frameworks */,
+				B7BD3714B97BC9E36C913A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61D613A93F8FA4D69492ADE3 /* PBXTargetDependency */,
+			);
+			name = CamaraMicrofonoUITests;
+			productName = CamaraMicrofonoUITests;
+			productReference = D727AA883B420C366254CE4C /* CamaraMicrofonoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5360A861CF61D735A02AE33D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 26A39E5732509095C3D4A266 /* Build configuration list for PBXProject "CamaraMicrofono" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF0A06920BBA955E15B0E6F3;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 100;
+			productRefGroup = CC75E1643DBB69F17FFFBC82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39563D59F6AA786A8E851D7A /* CamaraMicrofono */,
+				7CB96B8FE9373008B9C412ED /* CamaraMicrofonoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7BD3714B97BC9E36C913A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC1D1D8A8D1B1AED84BC569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A0A32E90F7E85D27680642D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30C415F7EB651873BF93098 /* CamaraMicrofonoApp.swift in Sources */,
+				BFB9A99E8C56EEA83CA82A19 /* AlmacenMedios.swift in Sources */,
+				3F22DBF9441EC35F6E879310 /* ContenidoDeEjemplo.swift in Sources */,
+				F31D92562794633DD07E2DB5 /* Persistencia.swift in Sources */,
+				E0362EEF995505E25D539A5C /* Tema.swift in Sources */,
+				DB10BB45D668C721D0A30B5B /* Filtros.swift in Sources */,
+				1E7FA6FBC4369B0029B8A17B /* ServicioAudio.swift in Sources */,
+				D18B43128FACBE4511A6B8BD /* ServicioCamara.swift in Sources */,
+				693D37B6096501B0326952BE /* Ubicacion.swift in Sources */,
+				624CA0E8787319F338758C70 /* DetalleMedio.swift in Sources */,
+				9D4AE54E4077A848B22D9380 /* Pestanas.swift in Sources */,
+				13CFA3AE5E26B6E818F87356 /* PuentesUIKit.swift in Sources */,
+				187195364AE3D26FE9A93BB2 /* VistaCamara.swift in Sources */,
+				8B8D3F4CC5E46974AA8013D5 /* VistaGaleria.swift in Sources */,
+				CEA4C077D1FFB51C98901F84 /* VistaGrabadora.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BB53C8E3E8CAA03933D5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AB30385CC3FDDEE76603D4 /* CamaraMicrofonoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61D613A93F8FA4D69492ADE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CamaraMicrofono;
+			target = 39563D59F6AA786A8E851D7A /* CamaraMicrofono */;
+			targetProxy = 46EA6DF733AA22A47FA3AB96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11FC20A1692A532C5BB3A8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CamaraMicrofono/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.ipn.escom.CamaraMicrofono;
+				PRODUCT_NAME = CamaraMicrofono;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F43D0FE7A91A1ACA751457E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		76A8D024DA0F1932A8D8C73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.ipn.escom.CamaraMicrofonoUITests;
+				PRODUCT_NAME = CamaraMicrofonoUITests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CamaraMicrofono;
+			};
+			name = Debug;
+		};
+		E488F47226B60BC3E597A89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.ipn.escom.CamaraMicrofonoUITests;
+				PRODUCT_NAME = CamaraMicrofonoUITests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CamaraMicrofono;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6D762458A2037A60D73F712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF01E56E9C4074D02DFB9145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CamaraMicrofono/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.ipn.escom.CamaraMicrofono;
+				PRODUCT_NAME = CamaraMicrofono;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A39E5732509095C3D4A266 /* Build configuration list for PBXProject "CamaraMicrofono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F43D0FE7A91A1ACA751457E /* Debug */,
+				E6D762458A2037A60D73F712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3408C33B10B81C2ABE21830F /* Build configuration list for PBXNativeTarget "CamaraMicrofono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF01E56E9C4074D02DFB9145 /* Release */,
+				11FC20A1692A532C5BB3A8E9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37AC20CDF8C92F88C0D84956 /* Build configuration list for PBXNativeTarget "CamaraMicrofonoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E488F47226B60BC3E597A89E /* Release */,
+				76A8D024DA0F1932A8D8C73D /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5360A861CF61D735A02AE33D /* Project object */;
+}
