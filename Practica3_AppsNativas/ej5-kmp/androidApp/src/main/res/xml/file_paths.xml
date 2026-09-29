@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Carpetas que se pueden compartir: solo el almacenamiento interno de la app (filesDir),
+     que es donde trabaja el gestor de archivos. -->
+<paths>
+    <files-path name="archivos_de_la_app" path="." />
+</paths>
